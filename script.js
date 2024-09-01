@@ -334,6 +334,7 @@ async function index() {
 
 
             buttonRemarcar.addEventListener("click", () => {
+                console.log(v)
                 if (confirm('Deseja remarcar?')) {
                     fetch(link + 'remarcar', {
                         headers: { "Content-Type": "application/json" },
@@ -349,7 +350,9 @@ async function index() {
             })
 
             buttonDesmarcar.addEventListener("click", () => {
+                console.log(v)
                 if (confirm('Deseja desmarcar?')) {
+                    
                     if (procurarpor == 'agendamentos') {
                         fetch(link + 'desmarcar', {
                             headers: { "Content-Type": "application/json" },
