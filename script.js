@@ -1,4 +1,4 @@
-let link = 'https://smoretti.squareweb.app/' // `http://localhost:80/`
+let link = 'https://shaolincampinas.csync.com.br/' // `http://localhost:80/`
 let senha
 if (localStorage.getItem('senha2024') !== null && localStorage.getItem('senha2024') !== 'null') {
     senha = localStorage.getItem('senha2024')
