@@ -351,7 +351,7 @@ async function index() {
 
             buttonDesmarcar.addEventListener("click", () => {
                 console.log(v)
-                if (confirm('Deseja desmarcar?')) {
+                if (confirm('Deseja excluir este agendamento?')) {
                     
                     if (procurarpor == 'agendamentos') {
                         fetch(link + 'desmarcar', {
